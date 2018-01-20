@@ -1,0 +1,12 @@
+[tool.towncrier]
+package = "aodag.wiki"
+filename = "NEWS.rst"
+directory = "aodag/wiki/newsfragments"
+
+[[tool.towncrier.section]]
+path = ""
+
+[[tool.towncrier.type]]
+directory = "feature"
+name = "Feature"
+showcontent = true

@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+{% block main %}
+<h1>{{ page.title }}</h1>
+<form method="POST" action="{{ request.url }}">
+    <textarea name="contents">{{ page.contents }}</textarea>
+    <button>Save</button>
+</form>
+{% endblock main %}

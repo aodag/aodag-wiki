@@ -1,0 +1,1 @@
+web: pserve development.ini DATABASE_URL=$DATABASE_URL
