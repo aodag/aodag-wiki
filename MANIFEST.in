@@ -1,0 +1,1 @@
+recursive-include aodag/wiki/templates *.html
